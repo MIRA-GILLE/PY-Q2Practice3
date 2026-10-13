@@ -13,4 +13,3 @@ def checkNum(e):
 
     document.getElementById("output1").innerHTML = message[confirm_num]
 
-    display = document.getElementById("output1").innerHTML
