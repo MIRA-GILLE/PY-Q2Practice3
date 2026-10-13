@@ -1,7 +1,7 @@
 from pyscript import document
 
 def checkNum(e):
-    num_bers = [3, 6, 8, 10, 88,]
+    num_bers = [3, 6, 8, 10, 88]
    
 
     num1 = document.getElementById("number").value
