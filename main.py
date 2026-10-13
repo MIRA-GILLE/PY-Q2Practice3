@@ -1,4 +1,4 @@
-from pyscript import document, display
+from pyscript import document
 
 def checkNum(e):
     num_bers = [3, 6, 8, 10, 88,]
@@ -12,3 +12,5 @@ def checkNum(e):
     message = (f"Sorry {name}, your number cannot be found." , f"Yay {name}, your number was found!")
 
     document.getElementById("output1").innerHTML = message[confirm_num]
+
+    display = document.getElementById("output1").innerHTML
